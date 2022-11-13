@@ -24,7 +24,7 @@ p {
 
 body {
     background: #1D3557;
-    max-width: 375px;
+    max-width: 425px;
     display: flex;
     flex-direction: column;
     align-items: center;
