@@ -24,7 +24,11 @@ p {
 
 body {
     background: #1D3557;
-    max-width: 425px;
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .linkedin {
@@ -59,6 +63,7 @@ header picture {
 
 main {
     background: #457B9D;
+    width: 370px;
     height: 1350px;
     display: flex;
     align-items: center;
