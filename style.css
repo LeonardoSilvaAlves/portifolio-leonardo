@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+* {
+    font-family: 'League Gothic', sans-serif;
+    margin: 0;    
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 375px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1 {
+    margin-top: 15px;
+    font-size: 35px;
+}
+p {
+    font-size: 21px;
+}
+
+body {
+    background: #1D3557;
+    max-width: 425px;
+}
+
+.linkedin {
+    margin-left: 25px;
+}
+
+.gif {
+    height: 158px;
+    width: 144px;
+}
+
+header img {
+    margin-top: 50px;
+    width: 69px;
+    height: 69px;
+    margin-right: 25px;
+    
+}
+
+header {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+header picture {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;    
+}
+
+main {
+    background: #457B9D;
+    height: 1350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    border-radius: 14px;
+}
+
+.sobremim {
+    background: #1D3557;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 355px;
+    color: #fff;
+    border-radius: 9px;
+    height: 345px;
+    margin-top: 25px;
+    margin-bottom: 13px;
+}
+
+.projetos {
+    background: #1D3557;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 355px;
+    color: #fff;
+    border-radius: 9px;
+    height: 910px;
+    margin-bottom: 25px;
+}
+
+.projetos img {
+    margin-top: 21px;
+}
+
+footer {
+    text-decoration: underline;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
