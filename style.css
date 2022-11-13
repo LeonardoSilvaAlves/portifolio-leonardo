@@ -24,7 +24,7 @@ p {
 
 body {
     background: #1D3557;
-    max-width: 425px;
+    min-width: 425px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,7 +63,7 @@ header picture {
 
 main {
     background: #457B9D;
-    width: 370px;
+    width: 400px;
     height: 1350px;
     display: flex;
     align-items: center;
@@ -71,6 +71,7 @@ main {
     flex-direction: column;
     margin-top: 50px;
     border-radius: 14px;
+    align-content: center;
 }
 
 .sobremim {
@@ -78,7 +79,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 355px;
+    width: 380px;
     color: #fff;
     border-radius: 9px;
     height: 345px;
@@ -91,7 +92,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 355px;
+    width: 380px;
     color: #fff;
     border-radius: 9px;
     height: 910px;
