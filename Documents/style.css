@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+* {
+    font-family: 'League Gothic', sans-serif;
+    margin: 0;    
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 375px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1 {
+    margin-top: 15px;
+    font-size: 35px;
+}
+p {
+    font-size: 21px;
+}
+
+body {
+    background: #1D3557;
+    min-width: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedin {
+    margin-left: 25px;
+}
+
+.gif {
+    height: 158px;
+    width: 144px;
+}
+
+header img {
+    margin-top: 50px;
+    width: 69px;
+    height: 69px;
+    margin-right: 15px;
+    
+}
+
+header {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+header picture {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;    
+}
+
+main {
+    background: #457B9D;
+    width: 400px;
+    height: 1350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    border-radius: 14px;
+    align-content: center;
+}
+
+.sobremim {
+    background: #1D3557;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 380px;
+    color: #fff;
+    border-radius: 9px;
+    height: 345px;
+    margin-top: 50px;
+    margin-bottom: 13px;
+}
+
+.projetos {
+    background: #1D3557;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 380px;
+    color: #fff;
+    border-radius: 9px;
+    height: 910px;
+    margin-bottom: 25px;
+}
+
+.projetos img {
+    margin-top: 21px;
+}
+
+footer {
+    text-decoration: underline;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+@media (min-width:850px){
+    
+    
+    h2 {
+        font-size: 50px;
+        margin-bottom: 35px;
+    }
+    
+    h1 {
+        margin-top: 15px;
+        font-size: 60px;
+        text-align: center;
+        margin-left: 950px;
+    }
+    p {
+        font-size: 35px;
+    }
+
+    main {
+        width: 1340px;
+        height: 1682px;
+        margin-left: 923px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header{
+        width: 1340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .github {
+        width: 161px;
+        height: 129px;
+        
+    }
+
+    .linkedin{
+        width: 161px;
+        height: 129px;
+        margin-left: 675px;
+        
+    }
+    .gif {
+        height: 256px;
+        margin-left: 250px;
+        width: 227px;
+        margin-right: 250px;
+    }
+    header picture {
+        display: flex;
+        flex-direction: row;
+        margin-left: 306px;
+        align-content: space-between;
+    }
+    .sobremim {
+        width: 1096px;
+        height: 400px;
+        padding-inline: 35px;
+        padding: 25px;
+    }
+    .projetos {
+        width: 1096px;
+        height: 942px;
+        
+    }
+    .projetos picture {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+    .projetos img {
+        margin-top: 21px;
+        width: 514px;
+        height: 282px;
+    }
+}
