@@ -109,3 +109,71 @@ footer {
     text-align: center;
     font-size: 18px;
 }
+
+@media (min-width:1024px){
+    
+    
+    h2 {
+        font-size: 50px;
+        margin-bottom: 35px;
+    }
+    
+    h1 {
+        margin-top: 15px;
+        font-size: 60px;
+    }
+    p {
+        font-size: 35px;
+    }
+
+    main {
+        width: 1340px;
+        margin-left: 923px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header{
+        width: 1024px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .github {
+        width: 161px;
+        height: 129px;
+        margin-left: 250px;
+    }
+
+    .linkedin{
+        width: 161px;
+        height: 129px;
+        margin-left: 550px;
+    }
+    .gif {
+        height: 256px;
+        width: 227px;
+        margin-left: 136px;
+    }
+    header picture {
+        display: flex;
+        flex-direction: row;
+        margin-left: 306px;
+        align-content: space-between;
+    }
+    .sobremim {
+        width: 1096px;
+        height: 400px;
+        padding-inline: 35px;
+        padding: 25px;
+    }
+    .projetos {
+        width: 1096px;
+        height: 942px;
+        
+    }
+}
